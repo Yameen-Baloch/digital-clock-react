@@ -11,7 +11,7 @@ const App = () =>{
     setTime(time);
   }
 
-  setInterval(UpdateTime)
+  setInterval(UpdateTime, 1000)
   return <h1>{Ctime}</h1>
 }
 
